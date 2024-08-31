@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px; 
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 10px; 
+}
+
+.input-row {
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    margin-bottom: 10px; 
+}
+
+.input-row .form-control {
+    flex: 1;
+    margin-right: 10px; 
+}
+
+.input-row .form-control.text-input {
+    margin-right: 10px; 
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.input-group .form-control {
+    width: 22%; 
+    min-width: 100px; 
+}
+
+.input-group .form-control:last-child {
+    margin-right: 0; 
+}
+
+.input-group-append {
+    margin-left: 10px; 
+}
+
+.remove-btn {
+    margin-left: 10px; 
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
